@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.css';
 import heroImg from '../img/hero.jpg';
-import { Link } from 'react-router-dom';
 
 
 function Hero() {
@@ -9,7 +8,7 @@ function Hero() {
     <>
       <div className='content'>
         <h2 className='hero-header'><span className='color-text'>3D MAX</span> kursida online O'qing</h2>
-        <Link to='/' className='button btn'>Online o'qish</Link>
+        <a className='button' href='https://t.me/ds_max_3dd' target='_blank' rel='noreferrer' area-label='Telegram'>Online o'qish</a>
       </div>
       <div className='container'>
         <div className='hero'>
@@ -20,7 +19,7 @@ function Hero() {
               <p className='hero-text'>Masofaviy kurslar 3ds Max, VRay, AutoCAD, Photoshop ta'limning qulay zamonaviy shaklidir. Masofaviy ta'lim sizga istalgan joyda, istalgan vaqtda individual jadval bo'yicha o'qish imkonini beradi. Hech qayerga borishingiz shart emas. Siz bugun o'rganishni boshlashingiz mumkin!
               </p>
               <p className='hero-text'>Masofaviy ta'lim - bu yuzma-yuz o'qitishning o'ziga xos muqobili! Ammo shuni unutmangki, taqdim etilgan sifatli o'quv materiallari sizni muntazam uy vazifasini bajarish zaruratidan xalos qilmaydi.</p>
-              <Link to='/' className='button'>Online o'qish</Link>
+              <a className='button' href='https://t.me/ds_max_3dd' target='_blank' rel='noreferrer' area-label='Telegram'>Online o'qish</a>
             </div>
           </div>
         </div>
@@ -30,7 +29,7 @@ function Hero() {
           <p className='hero-text'>
             Kurs davomiyligi 3 oy va haftada 3 kun. Seshanba, Payshanba va shanba kunlari soat 22:00 dan 23:40 gacha davom etadi. Narxi oyiga atigi 400 ming so'm.
           </p>
-          <Link to='/' className='button'>Online o'qish</Link>
+          <a className='button' href='https://t.me/ds_max_3dd' target='_blank' rel='noreferrer' area-label='Telegram'>Online o'qish</a>
         </div>
 
         <div className='feature feature-container'>
@@ -46,15 +45,13 @@ function Hero() {
             <tbody>
               <tr>
                 <td className='td'>Operation sistema</td>
-                <td>	Windows 10 (64-СЂР°Р·СЂСЏРґРЅР°СЏ)</td>
-                <td>	Windows 10 (64-СЂР°Р·СЂСЏРґРЅР°СЏ)</td>
+                <td>	Windows 10 (64-razryadli)</td>
+                <td>	Windows 10 (64-razryadli)</td>
               </tr>
               <tr>
                 <td className='td'>protsessor</td>
-                <td>Intel i5 (РёР»Рё Р»СѓС‡С€Рµ)
-                  РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ РјРёРЅРёРјСѓРј 4 СЏРґСЂР°</td>
-                <td>Intel i7 (РёР»Рё Р»СѓС‡С€Рµ)
-                  СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РѕС‚ 6-С‚Рё СЏРґРµСЂ Рё Р±РѕР»СЊС€Рµ</td>
+                <td>Intel i5 (yoki yaxshirog'i minimum 4 yadroli)</td>
+                <td>Intel i7 (yoki yaxshirog'i minimum 6 yadroli va undan yuqori)</td>
               </tr>
               <tr>
                 <td className='td'>Xotira</td>
